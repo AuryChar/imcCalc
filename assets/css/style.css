@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+  --primary-green: rgb(174, 221, 173);
+  --second-green: rgb(34, 97, 33);
+  --primary-red: rgb(221, 173, 173);
+  --second-red: rgb(97, 33, 33);
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.tabImc {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tab {
+  display: flex;
+  gap: 80px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form input {
+  border: 0px;
+  background-color: #d1d1d1;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.form input:hover, input:focus {
+  background-color: #a8a8a8;
+  border: 0px;
+  outline: none;
+}
+
+.form button {
+  border: 0px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 17px;
+  padding: 7px;
+  margin-top: 15px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form button:hover {
+  background-color: var(--primary-color-darker);
+}
